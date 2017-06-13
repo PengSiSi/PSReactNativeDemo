@@ -24,7 +24,7 @@ export default class FileList extends Component {
             dataArray: [],
             pageSize: 10,  // 页数
             pageNum: 1,
-            refreshing: false,
+            refreshing: true,
             noMoreData: false
         };
     };
@@ -61,7 +61,6 @@ export default class FileList extends Component {
             if (json.code === '000') {
                 this.setState({
                 dataArray: json.list,
-                showLoading: false,
                 isLoading: false,
                 refreshing: false,
                 noMoreData: noMoreFlag
@@ -69,7 +68,9 @@ export default class FileList extends Component {
             }
         }, error => {
             this.setState({
-                showLoading: false,noMoreData: true
+                error: true,
+                errorInfo: error,
+                noMoreData: true
             });       
             this.showToast('请检查您的网络状态');
         });
@@ -160,10 +161,12 @@ export default class FileList extends Component {
 
     loadMoreData() {
         this.setState({
-            pageSize: this.state.pageSize += 10,
+            pageSize: this.state.pageSize + 10,
             pageNum: 1
         });
-       this.loadData()
+        setTimeout(() =>{
+             this.loadData()
+		},5000);
     }
 
     onPullRelease() {

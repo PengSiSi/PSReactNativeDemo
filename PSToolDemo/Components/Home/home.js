@@ -28,7 +28,8 @@ export default class Home extends Component {
     const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
     this.state = {
       dataSource: ds.cloneWithRows([
-        '1.下拉刷新的使用', '2.HTML文本显示', '3.WebView的使用', '4.Toast的使用', '5.HtmlView的使用', '6.ListView使用', '7.FlatList的使用', '8.Guide的使用'
+        '1.下拉刷新的使用', '2.HTML文本显示', '3.WebView的使用', '4.Toast的使用', '5.HtmlView的使用', '6.ListView使用', '7.FlatList的使用', '8.Guide的使用',
+        '9.vector-icons的使用'
       ])
     };
     this.renderRow = this.renderRow.bind(this);
@@ -92,6 +93,10 @@ export default class Home extends Component {
     if (rowID == 7) {
      const {navigate} = this.props.navigation;
       navigate('GuideScreen');
+    }
+    if (rowID == 8) {
+     const {navigate} = this.props.navigation;
+      navigate('VectorIconScreen');
     }
   }
 }

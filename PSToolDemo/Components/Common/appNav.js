@@ -8,7 +8,7 @@ import {
   Text,
   Image,
   StyleSheet,
-  Platform
+  Platform,
 } from 'react-native';
 
 import {
@@ -27,13 +27,14 @@ import Drawer from 'react-native-drawer'
 import Side from './../Home/sidePage';
 import FlatList from './../Home/Pages/FlatListDemo/flatListDemo';
 import Guide from './../Home/Pages/GuideDemo/GuideDemo';
+import VectorIcon from './../Home/Pages/VertorIconDemo/VectorIconDemo';
 
 const AppNav = StackNavigator({
   HomeScreen: {
     screen: Home,
     navigationOptions: ({ navigation }) => ({
       title: '首页',
-      headerLeft: <Text>侧滑</Text>,
+      // headerLeft: ,
       // 设置导航栏样式
       headerStyle: {
         backgroundColor: 'green',
@@ -116,6 +117,15 @@ const AppNav = StackNavigator({
     screen: Guide,
     navigationOptions: ({ navigation }) => ({
       title: 'Guide的使用',
+    headerStyle: {
+      backgroundColor: 'white',
+    },
+    }),
+  },
+  VectorIconScreen: {
+    screen: VectorIcon,
+    navigationOptions: ({ navigation }) => ({
+      title: 'VectorIcon的使用',
     headerStyle: {
       backgroundColor: 'white',
     },
