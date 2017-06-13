@@ -25,6 +25,8 @@ import HtmlViewDemo from './../Home/Pages/HtmlViewDemo/htmlViewDemo';
 import ListViewDemo from './../Home/Pages/ListViewDemo/ListViewDemo';
 import Drawer from 'react-native-drawer'
 import Side from './../Home/sidePage';
+import FlatList from './../Home/Pages/FlatListDemo/flatListDemo';
+import Guide from './../Home/Pages/GuideDemo/GuideDemo';
 
 const AppNav = StackNavigator({
   HomeScreen: {
@@ -96,6 +98,24 @@ const AppNav = StackNavigator({
     screen: ListViewDemo,
     navigationOptions: ({ navigation }) => ({
       title: 'ListView的使用',
+    headerStyle: {
+      backgroundColor: 'white',
+    },
+    }),
+  },
+  FlatListScreen: {
+    screen: FlatList,
+    navigationOptions: ({ navigation }) => ({
+      title: 'FlatList的使用',
+    headerStyle: {
+      backgroundColor: 'white',
+    },
+    }),
+  },
+  GuideScreen: {
+    screen: Guide,
+    navigationOptions: ({ navigation }) => ({
+      title: 'Guide的使用',
     headerStyle: {
       backgroundColor: 'white',
     },
