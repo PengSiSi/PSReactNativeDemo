@@ -28,6 +28,7 @@ import Side from './../Home/sidePage';
 import FlatList from './../Home/Pages/FlatListDemo/flatListDemo';
 import Guide from './../Home/Pages/GuideDemo/GuideDemo';
 import VectorIcon from './../Home/Pages/VertorIconDemo/VectorIconDemo';
+import Sqlite from './../Home/Pages/SqilteDemo/SqliteDemo';
 
 const AppNav = StackNavigator({
   HomeScreen: {
@@ -126,6 +127,15 @@ const AppNav = StackNavigator({
     screen: VectorIcon,
     navigationOptions: ({ navigation }) => ({
       title: 'VectorIcon的使用',
+    headerStyle: {
+      backgroundColor: 'white',
+    },
+    }),
+  },
+  SqliteScreen: {
+    screen: Sqlite,
+    navigationOptions: ({ navigation }) => ({
+      title: 'Sqlite的使用',
     headerStyle: {
       backgroundColor: 'white',
     },

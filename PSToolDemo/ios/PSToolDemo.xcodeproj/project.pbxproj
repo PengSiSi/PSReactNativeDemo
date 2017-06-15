@@ -45,9 +45,12 @@
 		7ED4D36B84994D84852A6306 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCED2DC472A849AF828DC4C7 /* MaterialCommunityIcons.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		A8BD3030EC6B495A8AC9AF5D /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8ECE53DAAC400CADC2D67F /* libRNVectorIcons.a */; };
+		AD9F70FEE35DA1C04A8033C7 /* libPods-PSToolDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D448410721FD257D6821066A /* libPods-PSToolDemo.a */; };
 		AE1FA10FBF354A14BF235A5B /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A93122F243545728EB450AC /* Octicons.ttf */; };
 		F0652AA20680454D881F7430 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B57228B3EC2340DFA47B999F /* SimpleLineIcons.ttf */; };
 		F081D02AF0894AEAAE4A980A /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C4F8AABD47F4204A2442ED2 /* Zocial.ttf */; };
+		F1AB04431EF20E1D001E7E9E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AB04421EF20E1D001E7E9E /* libsqlite3.0.tbd */; };
+		F1AB04611EF20E23001E7E9E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AB04601EF20E23001E7E9E /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -290,6 +293,7 @@
 		377EE1F90DC14365A4322717 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		449727470F7A44AF9536CDA6 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		596D68A9B9D54B1588EBB882 /* libRNFS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFS.a; sourceTree = "<group>"; };
+		5B2EC80D4B9E0BF99334DEB4 /* Pods-PSToolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSToolDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PSToolDemo/Pods-PSToolDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7C4F8AABD47F4204A2442ED2 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
@@ -299,7 +303,11 @@
 		94BFB04850CC42AEB10957F9 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		B57228B3EC2340DFA47B999F /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		BB17EE3CBBED486F8D0E4E95 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		D448410721FD257D6821066A /* libPods-PSToolDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PSToolDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5D321D93EA41929CE9E861 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		F19FEFEAA649CE86176EEF8A /* Pods-PSToolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSToolDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PSToolDemo/Pods-PSToolDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F1AB04421EF20E1D001E7E9E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F1AB04601EF20E23001E7E9E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		FCED2DC472A849AF828DC4C7 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		FFBDDF08C68D4D93A6DA8C14 /* RNFS.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFS.xcodeproj; path = "../node_modules/react-native-fs/RNFS.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -317,6 +325,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1AB04611EF20E23001E7E9E /* libsqlite3.tbd in Frameworks */,
+				F1AB04431EF20E1D001E7E9E /* libsqlite3.0.tbd in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -330,6 +340,7 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				232A8E9B149D4FB5BC507450 /* libRNFS.a in Frameworks */,
 				A8BD3030EC6B495A8AC9AF5D /* libRNVectorIcons.a in Frameworks */,
+				AD9F70FEE35DA1C04A8033C7 /* libPods-PSToolDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +369,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0037D712719427E9F820501B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB04601EF20E23001E7E9E /* libsqlite3.tbd */,
+				F1AB04421EF20E1D001E7E9E /* libsqlite3.0.tbd */,
+				D448410721FD257D6821066A /* libPods-PSToolDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		00C302A81ABCB8CE00DB3ED1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -519,6 +540,8 @@
 				00E356EF1AD99517003FC87E /* PSToolDemoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				C4D8D3D5D5AC4980A3668961 /* Resources */,
+				BB76025890DC418DAB7D954E /* Pods */,
+				0037D712719427E9F820501B /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -533,6 +556,15 @@
 				2D02E4901E0B4A5D006451C7 /* PSToolDemo-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BB76025890DC418DAB7D954E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F19FEFEAA649CE86176EEF8A /* Pods-PSToolDemo.debug.xcconfig */,
+				5B2EC80D4B9E0BF99334DEB4 /* Pods-PSToolDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C4D8D3D5D5AC4980A3668961 /* Resources */ = {
@@ -594,10 +626,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PSToolDemo" */;
 			buildPhases = (
+				9B512D5A5ED8D4426669045B /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				26E37EA35D1A399B02575459 /* [CP] Embed Pods Frameworks */,
+				7E7DD6AD13317045AF853414 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1001,6 +1036,21 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 		};
+		26E37EA35D1A399B02575459 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PSToolDemo/Pods-PSToolDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1014,6 +1064,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		7E7DD6AD13317045AF853414 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PSToolDemo/Pods-PSToolDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B512D5A5ED8D4426669045B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1129,6 +1209,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19FEFEAA649CE86176EEF8A /* Pods-PSToolDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1147,6 +1228,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B2EC80D4B9E0BF99334DEB4 /* Pods-PSToolDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;

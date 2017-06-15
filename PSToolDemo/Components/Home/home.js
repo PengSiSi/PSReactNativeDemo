@@ -29,7 +29,7 @@ export default class Home extends Component {
     this.state = {
       dataSource: ds.cloneWithRows([
         '1.下拉刷新的使用', '2.HTML文本显示', '3.WebView的使用', '4.Toast的使用', '5.HtmlView的使用', '6.ListView使用', '7.FlatList的使用', '8.Guide的使用',
-        '9.vector-icons的使用'
+        '9.vector-icons的使用', '10.react-native-sqlite-storage使用'
       ])
     };
     this.renderRow = this.renderRow.bind(this);
@@ -97,6 +97,10 @@ export default class Home extends Component {
     if (rowID == 8) {
      const {navigate} = this.props.navigation;
       navigate('VectorIconScreen');
+    }
+    if (rowID == 9) {
+     const {navigate} = this.props.navigation;
+      navigate('SqliteScreen');
     }
   }
 }
