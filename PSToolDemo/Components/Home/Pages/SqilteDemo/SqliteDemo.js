@@ -15,6 +15,8 @@ import {
 
 import MovieJson from './Movie.json';
 import Util from './../../../Util/utils';
+import Movie from './../SqilteDemo/DB/Movie';
+import sqlite from './DB/SQLite';
 
 export default class extends Component {
 
@@ -62,15 +64,26 @@ export default class extends Component {
                     {/*右边的时间view*/}
                   <View style= {styles.rightViewStyle}>
                     <Text style={styles.rightitemStyle}>{rowData.time}</Text>
-                    <Text style={styles.rightitemStyle} onPress = {()=>this.didClickCollectAction()}>收藏</Text>
+                    <Text style={styles.rightitemStyle} onPress = {this.didClickCollectAction.bind(this,rowData)}>收藏</Text>
                   </View>
                 </View>
             </TouchableOpacity>
         )
     }
 
-    didClickCollectAction() {
-        alert('收藏');
+    // 收藏
+    didClickCollectAction(movie) {
+        console.log(movie);
+        var coll = new Movie();
+        coll.setTitle(movie.title);
+        coll.setAuthor(movie.author);
+        coll.setTime(movie.time);
+        // sqlite.saveCollection(coll).then(()=>{
+        //     this.setState({
+        //         isCollection:isCollection,
+        //     });
+        //     console.log('保存成功');
+        // }).catch((e)=>{}).done();
     }
 }
 
